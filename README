@@ -1,0 +1,8 @@
+1) Following the Example to:
+      Create the DockerFile and put it to the ./DockerFiles/{VulName}/Dockerfile
+      Create a profile in the ./Profile/ Folder.
+2) source ./auto_rox/bin/activate
+3) python run_unit.py
+4) logs will be at ./logs/{Docker_Image_id}/main.log
+   Raw SysDig dump is located at ./logs/{Docker_Image_id}/{Docker_Image_id}.scap
+   Container-Only SysDig log is saved to ./logs/{Docker_Image_id}/{Container_id}
